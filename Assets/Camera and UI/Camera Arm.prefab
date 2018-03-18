@@ -53,13 +53,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1057940702596522}
-  m_LocalRotation: {x: 0.18968715, y: -0.7580554, z: 0.17918003, w: 0.5977168}
-  m_LocalPosition: {x: 8.19, y: 5.33, z: 2.9}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4914035284413140}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 29.895002, y: -104.787, z: -4.8560004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4914035284413140
 Transform:
   m_ObjectHideFlags: 1
@@ -92,7 +92,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 66.13
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -141,6 +141,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: deb54a186809af64dbca6ae8acbdce70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkCursor: {fileID: 2800000, guid: 798c550672c8a47449e9fda027736a81, type: 3}
+  targetCursor: {fileID: 2800000, guid: 4bc87d1dc16fc4c429e9b4a0e30f7006, type: 3}
+  unknownCursor: {fileID: 2800000, guid: f23db9a79f3e3764cac41105a4ae81af, type: 3}
+  cursorHotspot: {x: 96, y: 96}
 --- !u!114 &114657212204449178
 MonoBehaviour:
   m_ObjectHideFlags: 1
