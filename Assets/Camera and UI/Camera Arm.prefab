@@ -53,13 +53,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1057940702596522}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0.83952874, z: -0, w: 0.5433153}
+  m_LocalPosition: {x: 12.9, y: 6.34, z: 4.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4914035284413140}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -114.18101, z: 0}
 --- !u!4 &4914035284413140
 Transform:
   m_ObjectHideFlags: 1
@@ -144,7 +144,7 @@ MonoBehaviour:
   walkCursor: {fileID: 2800000, guid: 798c550672c8a47449e9fda027736a81, type: 3}
   targetCursor: {fileID: 2800000, guid: 4bc87d1dc16fc4c429e9b4a0e30f7006, type: 3}
   unknownCursor: {fileID: 2800000, guid: f23db9a79f3e3764cac41105a4ae81af, type: 3}
-  cursorHotspot: {x: 96, y: 96}
+  cursorHotspot: {x: 0, y: 0}
 --- !u!114 &114657212204449178
 MonoBehaviour:
   m_ObjectHideFlags: 1
