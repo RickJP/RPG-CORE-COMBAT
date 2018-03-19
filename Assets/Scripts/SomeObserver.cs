@@ -14,6 +14,6 @@ public class SomeObserver : MonoBehaviour {
 
 	void MyHandlingFunction (Layer newLayer)
     {
-        print("I can DO IT!");
+
 	}
 }
