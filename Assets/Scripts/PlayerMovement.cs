@@ -23,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-
     // Fixed update is called in sync with physics
     private void FixedUpdate()
     {

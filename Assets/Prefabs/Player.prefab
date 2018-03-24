@@ -1269,9 +1269,9 @@ GameObject:
   - component: {fileID: 95554357760544368}
   - component: {fileID: 54872792571097566}
   - component: {fileID: 136467728652067508}
-  - component: {fileID: 114122430518686166}
   - component: {fileID: 114881013074770580}
   - component: {fileID: 114471226394177928}
+  - component: {fileID: 114215565784723898}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2486,17 +2486,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114122430518686166
+--- !u!114 &114215565784723898
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1998746173232776}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 521b611700410be45810047f0a74e899, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c42e70e0ab679f40a08532199f7d66f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealthPoints: 100
 --- !u!114 &114471226394177928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2509,6 +2510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkMoveStopRadius: 0.2
+  attackMoveStopRadius: 5
 --- !u!114 &114881013074770580
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2520,13 +2522,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MovingTurnSpeed: 3600
-  m_StationaryTurnSpeed: 1800
+  m_MovingTurnSpeed: 2000
+  m_StationaryTurnSpeed: 1200
   m_JumpPower: 6
   m_GravityMultiplier: 2
   m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 4
-  m_AnimSpeedMultiplier: 5
+  m_MoveSpeedMultiplier: 1
+  m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.3
 --- !u!136 &136467728652067508
 CapsuleCollider:
